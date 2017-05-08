@@ -10,6 +10,7 @@ class ServicoDePostagem extends AbstractModel
     const SERVICE_PAC_41106                  = 41106;
     const SERVICE_PAC_CONTRATO_41211         = 41211;
     const SERVICE_PAC_GRANDES_FORMATOS       = 41300;
+    const SERVICE_PAC_GRANDES_FORMATOS_NOVO       = 04693;
     const SERVICE_PAC_REMESSA_AGRUPADA       = 41610;
     const SERVICE_E_SEDEX_STANDARD           = 81019;
     const SERVICE_SEDEX_40096                = 40096;
@@ -37,6 +38,7 @@ class ServicoDePostagem extends AbstractModel
         self::SERVICE_PAC_41106                  => array('Pac 41106', 110353),
         self::SERVICE_PAC_CONTRATO_41211         => array('Pac 41211', 113546),
         self::SERVICE_PAC_GRANDES_FORMATOS       => array('Pac Grandes Formatos', 120366),
+        self::SERVICE_PAC_GRANDES_FORMATOS_NOVO       => array('Pac Grandes Formatos NOVO', 125248),
         self::SERVICE_PAC_REMESSA_AGRUPADA       => array('Pac Remessa Agrupada', 121889),
         self::SERVICE_E_SEDEX_STANDARD           => array('E-Sedex Standard', 104672),
         self::SERVICE_SEDEX_40096                => array('Sedex 40096', 104625),
